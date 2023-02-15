@@ -29,4 +29,4 @@ def ml_result(request):
         ans ='Dead'
     else:
         ans ="Sevived"
-    return render(request, 'm;/ml_result.html',{'lis':lis, 'ans':ans})        
+    return render(request, 'ml/ml_result.html', {'lis':lis, 'ans':ans})        
